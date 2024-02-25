@@ -1,0 +1,36 @@
+React = Javascript Library
+
+React.createElement (Object) => (Converted) HTML Element
+
+How our Javascript Works inside the browser?
+-> Because the browser already have the javascript engine installed in it and from that engine it has all the superpowers to understand all the javascript code.
+
+HomeWork
+What is CDN? 
+Why do we use CDN?
+What is this cross origin?
+-> Content Delivery Network
+Websites where the react library is hosted, and we are just pulling react from it to inside our project.
+
+
+<script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+
+React.createElement = to create new element
+ReactDOM.createRoot = to create a root from where Dom manipulation operations will start.
+
+react-dom.development.js
+= react-dom is useful for performing the Dom operations using the react.
+
+React.createElement 
+= takes 3 parameters, 1. Element you want to element 2. an object 3. The text you want to display on the screen
+
+React Needs to root element, where it can do all the Dom manipulations.
+
+Most Cost List Operation inside our Browser?
+= Rearranging the DOM Tree. Adding something on the Dom Tree or Removing Something fro the DOM Tree.  Why React is called a library?
+= Because it can work in independently in a small portion of your app as well.
+
