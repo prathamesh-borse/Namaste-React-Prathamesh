@@ -1,0 +1,68 @@
+● What is Emmet?
+ Emmet is a web development toolkit that helps to accelarte the process of writing html css code.
+ Emmet provides shorthand syantax that allows developers to HTML CSS Code faster and as well using 
+ emmet you can abbreviations to write Complex structure code of HTML & CSS. 
+
+● Difference between a Library and Framework?
+Library
+* Libraries are basically set of functions that performs set of tasks and developers can use them as per 
+  their need.
+* Provides functionality that can be called through developers code.
+* Eg: JQuery, React
+
+Framework
+* Framework is a set of rules, services and architecuture for building applications.
+* Here Framework calls the developers code, In library developer can call the library to perform set of
+  actions according to his need.
+* Developers can extends framework by implementing specific functionalities.
+* eg: Spring, Django
+
+
+● What is CDN? Why do we use it?
+* CDN is Content Delivery Network.
+* It is a Network of servers that work to deliver the web content such as stylesheets, js files, images
+  to user based on their geographical user location.
+
+Key Reasons Why we use CDN?
+1. Faster Content Delivery
+2. Reduced Server Load
+3. Global Availability
+4. Scalability
+5. Cost Efficiency.
+
+● Why is React known as React?
+Because the main react paradigm is buidling UI Components that react to changes in application state.
+
+● What is crossorigin in script tag?
+The crossorigin in script tag controls how browser handles loading scripts from different domain.
+The crossorigin attribute allows you to specify how browser should handle loading scripts from different
+orgin. 
+
+
+● What is diference between React and ReactDOM
+React
+* React is use for building user interfaces in Javascript Applications.
+* React has features like JSX syntax, component based application structure, virtual DOM 
+* Developers use React to handle the state, props and overall application structure.
+
+ReactDOM
+* ReactDOM is provides DOM specific methods for interacting with DOM (Document Object Model).
+* It is responsible for rendering react components inside the browser using the DOM API.
+* ReactDOM includes methods like render() which takes a React element and mounts it into the specified 
+  DOM node.
+* While React is platform-agnostic and can be used for server-side rendering (React Native for mobile, etc.), 
+  ReactDOM is specific to web environments where there is a DOM.  
+
+
+● What is difference between react.development.js and react.production.js files via CDN?
+react.development.js
+* This file is useful when developers are developing features in the code 
+* And also it does not contains the optimized size making it easier to read and debug.
+* This file is mostly useful when development environments. 
+
+react.production.js
+* This file is useful when for production when deplying the component of react library.
+* And also it contains the optimized version of react library resulting in smaller file size.
+* Developers will use file in production for optimized smaller code size and faster loading of the application.
+
+● What is async and defer? - see my Youtube video ;
