@@ -1,0 +1,78 @@
+Ignite - Bundle Our Code so that It become ready to push into the production.
+
+npx create react app - When you do this the app is already ignited and very much bunded application.
+
+npm = node package manager first thing you had in mind.
+
+npm is everything but it is not node package manager.
+npm is manages packages, but it is node package manager.
+npm is the repository, for all the standard packages.
+
+package.json = configuration for the npm
+
+The most important dependency we need inside our project is bundler.
+Before going in the our project needs to be minified, our codes need to be bundled.
+
+Webpack, parcel, veet = Bundler
+
+npx create react app = uses webpack behind the seens to bundle the HTML, CSS, JS & Images files
+
+There are two type dependencies we can install:
+1. dev dependencies = required for development phase
+2. Normal dependencies = used in production also.
+
+
+. What is the difference between ~ and ^ in package.json?
+~version = Approximately equivalent to version, i.e., only accept new patch versions 
+^version = Compatible with version, i.e., accept new minor and patch versions 
+
+package-lock.json = keeps a record of every exact version of the dependency which is installed.
+Keeps the track of exact version that is being installed. 
+keeps the track of all the versions of all the dependencies.
+
+We dont put /node_modules folder into the github.
+we only put package.json and package-lock.json files pushed to the github because using this two files
+we can regenerate the node_modules.
+
+Whatever you can regenerate don;t put it on the git. It should only have essential things.
+
+
+Building our app using parcel:
+npx parcel index.html (source file)
+
+npm = install the package we use the ( npm install package-name )
+but if you want to execute this package
+npx = for executing the packages we use npx. 
+(npx parcel package-name) = for bundling/executing package use this command
+
+Using CDN links is not a good way to get react and reactDOM inside our project.
+1. Fetching from CDN is costly operations.
+
+How Parcel help us?
+- Dev Build
+- Local Server
+- HMR = Hot Module Replacement
+- File Watching Algorithm - Written in C++
+- Caching - Faster Development Builds 
+Parcel is giving faster development builds because it is also does the caching.
+
+When you do 
+npx parcel build index.html = you will get an error like below
+
+To remove this error remove main from the package.json
+
+To Run our Production build inside the older versions of the browser
+browserlist = it is already installed the node_modules
+the browserlist can be useful for to support older versions of the browser.
+
+Why your react app is fast?
+How it is optimized.!
+
+What is bundlers?
+What is NPM?
+What is Parcel? & parcel-cache
+What is dist?
+What is node_modules?
+Why there is package.json & package-lock.json?
+How HMR is working?
+
