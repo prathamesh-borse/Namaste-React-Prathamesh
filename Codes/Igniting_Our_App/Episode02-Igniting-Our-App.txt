@@ -5,7 +5,7 @@ npx create react app - When you do this the app is already ignited and very much
 npm = node package manager first thing you had in mind.
 
 npm is everything but it is not node package manager.
-npm is manages packages, but it is node package manager.
+npm is manages packages, but it is not node package manager.
 npm is the repository, for all the standard packages.
 
 package.json = configuration for the npm
