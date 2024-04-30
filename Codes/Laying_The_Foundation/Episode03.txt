@@ -1,0 +1,48 @@
+JSX = is not HTML inside Javascript
+
+JSX is = like HTML-like Syntax for writing html code using Javascript
+
+JSX is different, HTML is different, React is different.
+
+For who you are writing code? for machines or Humans?
+= For Humans = because developers working inside the company is looking at your code.
+= if we are writing code for machines then we are writing it in binary.
+
+
+const jsxHeading = <h1 id="heading">Namaste React using JSX🚀</h1>
+
+= the above is not a valid Javascript because JS Engine does not understand the above code.
+= before reaching to JS Engine the above code is getting transpiled by PARCEL 
+= and PARCEL is also not doing on its own, it is getting help from babel
+
+babel = to convert the JSX Code into React understandable Code.
+
+If you have to use JSX in React, use camelCase Syntax for it.
+JSX = img src inside jsx, a href inside jsx 
+
+Interview Question: What is Component Composition?
+=> Component inside Component is component composition.
+=> You are composing two components into one another.
+
+Given below Title is the Functional Component which is nested inside the HeadingComponent.
+
+const Title = () => {
+  return (
+    <h1 id="heading" className="head">
+      Namaste React using JSX🚀
+    </h1>
+  );
+};
+
+const HeadingComponent = () => {
+  return (
+    <div id="container">
+      <Title />
+      <h1>Namaste React Functional Component 🚀</h1>
+    </div>
+  );
+};
+
+Interview Question: What is making your code readable? 
+=> It is not react but it is actually JSX which is helping us to write more readable code.
+=> Not react.
