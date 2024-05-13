@@ -1,0 +1,14 @@
+config-driven ui
+controlling the ui(how the ui looks like) using data/ using config
+
+the config comes from the backend.
+
+cloudinary = image hosted on this platform
+map, filter and reduce
+
+Imp: Whenever we are looping onto anything/ any list You have to give key property.
+
+Best practices for writing the code:
+1. Destructure the variables which is coming from the api
+2. Use functional programming in all react projects
+3. Using unique id when we loop using map, filter or reduce we it is the best practice.
