@@ -128,5 +128,5 @@ Browserlists is the dependency package in which we can specify support for our a
  </body>
  </html>
  ```
- 
+
  The above script tag is telling the code written is the type of javascript and there we are getting paragraph attribute with id demo and adding text inside the paragraph using javascript. 

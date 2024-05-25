@@ -1,0 +1,50 @@
+
+Why to use react?
+=> react gives you superpowers so that you can make large scalable production ready
+   performance applications.
+
+Never use the hardcoded string, inside your code.
+
+Two Types of Export/IMport
+
+- Default Export/IMport
+  
+  export default Component;
+  import Component from "path";
+
+- Named Export/IMport
+  
+  export const Component;
+  import {Component} from "path";
+
+
+Can I use named export and export default at the same time? H/W
+
+Data and UI Layer consistent to each other = react comes in picture.
+
+Why react is faster?
+Because it has virtual DOM. It have the diff Algorithm and because of this it can do the 
+efficient DOM Manipulation.
+
+- Faster DOM Manipulation
+- Efficient DOM Manipulation
+
+Hooks in React?
+Hook => Normal JavaScript Function => Comes with SuperPowers which is given by react.
+- useState()
+- useEffect()
+
+1. useState()
+takes two variables:
+1. list of the Data
+2. is the function through which the data will be modified based on the filter which we want to show on the UI
+
+Whenever the state variable updates, react re-renders the Component.
+
+Reconciliation Algorithm => React Fiber => introduced in react 16
+
+Virtual DOM => is the actual representation of the actual DOM.
+
+Diff Algorithm = it finds out the difference between the actual DOM & Updated Virtual DOM
+
+Incremental Rendering
